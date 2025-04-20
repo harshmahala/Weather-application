@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    background: #cce7ff;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.weather {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+}
+ 

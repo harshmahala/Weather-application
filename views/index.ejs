@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🌤️ Weather App</h1>
+      <form action="/" method="POST">
+        <input type="text" name="city" placeholder="Enter city" required />
+        <button type="submit">Get Weather</button>
+      </form>
+
+      <% if (weather) { %>
+      <p class="weather"><%= weather %></p>
+      <% } %> <% if (error) { %>
+      <p class="error"><%= error %></p>
+      <% } %>
+    </div>
+  </body>
+</html>
